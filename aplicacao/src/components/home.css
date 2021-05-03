@@ -6,3 +6,19 @@ body {
     color: aliceblue;
     text-align: center;
 }
+
+
+.Card {
+    border: 1px solid black;
+    border-radius: 20px;
+    flex: 1;
+    overflow: hidden;
+}
+
+button {
+    flex: 1;
+    margin: 20px;
+    border-radius: 10px;
+    border: 2px solid black;
+    background-color: rgb(26, 86, 134);
+}
