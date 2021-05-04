@@ -1,18 +1,11 @@
 body {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-weight: 300;
-    font-size: 2rem;
-    background-color: rgb(58, 55, 42);
-    color: aliceblue;
     text-align: center;
+    /* border: 5px solid #FF0000; */
 }
 
-
-.Card {
-    border: 1px solid black;
-    border-radius: 20px;
-    flex: 1;
-    overflow: hidden;
+.Home {
+    display: flex;
+    flex-wrap: wrap;
 }
 
 button {

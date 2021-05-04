@@ -11,12 +11,13 @@ export default function Tarefa({math}, props) {
 
     return(
         <div className="Card">
-            <div className="Status">{props.status}</div>
+            <div className="Status">{props.status}Olá</div>
             <div className="Conteudo">
                 Esse é um conteúdo
             </div>
             <div className="Footer">Aqui jax um Footer</div>
         </div>        
+        
     )
 
 }
