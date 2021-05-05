@@ -21,11 +21,41 @@ export default function Home({math}) {
 
 
     return (
-        <div className='Home'>
-            <Tarefa>Essa é uma tarefa</Tarefa>        
-            <Tarefa></Tarefa>
-            <Tarefa></Tarefa>
+        <div>
+            <div>
+                <h1>Tarefas a serem executadas</h1>
+            </div>
+            <div>
+                <h3 className="Subtitulos">Para fazer</h3>
+                <div className='Home'>
+                    <Tarefa></Tarefa>
+                    <Tarefa></Tarefa>
+                    <Tarefa></Tarefa>
+                    <Tarefa></Tarefa>
 
+                </div>
+            </div>
+            <div>
+                <h3 className="Subtitulos">Fazendo</h3>
+                <div className='Home'>
+                    <Tarefa></Tarefa>
+                    <Tarefa></Tarefa>
+                    <Tarefa></Tarefa>
+
+                </div>
+            </div>
+            <div>
+                <h3 className="Subtitulos">Feito</h3>
+                <div className='Home'>
+                    <Tarefa></Tarefa>
+                    <Tarefa></Tarefa>
+                    <Tarefa></Tarefa>
+                    <Tarefa></Tarefa>
+                    <Tarefa></Tarefa>
+                    <Tarefa></Tarefa>
+
+                </div>
+            </div>
         </div>
     );
 };
