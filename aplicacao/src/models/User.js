@@ -8,7 +8,7 @@ const UserSchema = new Schema({
     },
     task:[{
         type: Schema.Types.ObjectId,
-        ref: 'User'
+        ref: 'tasks'
     }],
     createAt: {
         type: Date,
