@@ -1,31 +1,25 @@
-const express = require('express')
-const router = express.Router()
-var bodyParser = require('body-parser');
-router.use(bodyParser.json());
+
+// const axios = require('axios');
+// const Task = require('../models/Task');
 
 
-router.get('/', (req, res) => {
-    res.send({mesagem: 'Hello World!'})
-});
-//Busca por uma tarefa
- router.get('/:taskId', async (req, res) => {
-   res.send('List for 1 Task')
- })
+module.exports = {
 
-//Criar uma tarefa
- app.post('/', async (req, res) => {
-   res.send('POST request to the homepage')
- })
+    async index(req, res) {
+        return res.send({mensage :'Uma tarefa'})
+    
+    },
 
- //Modificar uma tarefa
- app.put('/taskId', (req, res) => {
-   res.send('POST request to the homepage')
- });
-
- // Deletar uma tarefa
- app.delete('/tasks/:id', (req, res) => {
-   res.send('Delete record with id id');
- });
+    async store(req, res) {
+        return res.send({mensage :'Criando uma tarefa'})
+    
+    },
+    async updated(req, res) {
+        return res.send({mensage :'Mudando  uma tarefa'})
+    
+    }
 
 
- module.exports = app => app.use('/tasks', router);
+
+
+}
