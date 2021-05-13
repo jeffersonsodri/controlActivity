@@ -5,7 +5,7 @@ import '../src/assets/App.css'
 export default function App(props) {
     
     return(
-        <div >
+        <div className="App">
             <Home></Home>
         </div> 
     )
